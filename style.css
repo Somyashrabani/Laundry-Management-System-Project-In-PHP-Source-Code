@@ -1,0 +1,110 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,900;1,200;1,300;1,400&display=swap');
+:root{
+  --orange: #ff7800;
+--black: #130f40;
+--light-color: #666;
+--box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+--border:.2rem solid rgba(0,0,0,.1);
+--outline:.1rem solid rgba(0,0,0,.1);
+--outline-hover:.2rem solid var(--black);
+}
+.login-container, .register-container{
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+.dashboard-container{
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+.customer.sidebar{
+  position: sticky;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 240px;
+  height: 100vh;
+  padding: 0 1.7rem;
+  color: #fff;
+  overflow: hidden;
+  transition: all 0.5s linear;
+  background: rgba(113, 99,186, 255);
+}
+.customer{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all.2s linear;
+
+}
+.body{
+  background: #666;
+}
+
+h1 {
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+.dashboard-container.sidebar{
+  position: sticky;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 240px;
+  height: 100vh;
+  padding: 0 1.7rem;
+  color: #fff;
+  overflow: hidden;
+  transition: all 0.5s linear;
+  background: rgba(113, 99,186, 255);
+}
+.dashbord{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all.2s linear;
+
+}
+.body{
+  background: #666;
+}

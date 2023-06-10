@@ -1,0 +1,5 @@
+jeans,1
+jeans,2
+jeans,
+socks,
+jeans,
